@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.graph_objects as go
-from BlackScholes import BlackScholes
+from src.models.BlackScholes import BlackScholes
+
 import numpy as np
 
 def generate_pnl_matrix(maturity, strike_price, risk_free_rate, purchase_price, spot_range, vol_range, option_type):
