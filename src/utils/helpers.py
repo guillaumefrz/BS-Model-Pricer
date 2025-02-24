@@ -1,4 +1,4 @@
-from BlackScholes import BlackScholes
+from src.models.BlackScholes import BlackScholes
 
 def calculate_purchase_prices(spot_price, strike_price, maturity, risk_free_rate, volatility):
     """
